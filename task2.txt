@@ -1,0 +1,31 @@
+1.Variable - Proqramda istifad? olunan veril?nl?ri tanitmaq ucun istifad? olunur.D?yis?nl?rin tan?d?lmas? "var" sozu il? baslay?r,veril?nl?rin d?y?ri v? tipl?ri qeyd olunur,buna uygun olaraq yaddasda yer ayr?l?l?r.
+ 
+
+2.M?lumat novl?ri:
+   int - (-2,147,483,648 ; 2,147,483,647) aral?g?nda ?d?l?rin yaz?lmas?nda istifad? olunur.32 byte yer tutur.Bundan basqa byte(0;255),sbyte(-128;127),uint(	
+          0;4294967295),short,ushort,long,ulong kimi muxt?lif yaddas tutumu t?l?b ed?n,muxt?lif diapazonlu m?lumat novl?ri d? vard?r.
+   float - k?srl?rin yaz?lmas?nda istifad? olunur.32 byte yer tutur.(-3.402823e38 ; 3.402823e38)
+   string - keyboard.da gorduyumuz butun xarakterl?rin yaz?lmas?nda istifad? olunur.
+   bool - yaln?z iki qiym?t ala bil?r: True v? False.
+
+3.Riyazi operatorlar - Bildiyimiz riyazi ?m?ll?ri yerin? yetirm?kcun proqramlasd?rma dill?rind?n istifad? olunur.Riyazi operatorlar asag?dak?lard?r:
+   + iki ?d?din c?ml?m?k ucun istifad? olunur;
+   – 2 ?d?din f?rqini gost?rir;
+   * vurma ?m?liyat?n? yerin? yetirir;
+   / bolm? ?m?liyat?n? yerin? yetirir;
+   % bolm? zaman? qal?g? gost?rir.
+bundan basqa m?s?l?n php-d? dig?r riyazi funksiyalar? yerin? yetir?n operatorlar vard?r(asm-modul,sin-sinus,cos-kosinus v? s.)
+
+4.M?ntiq operatorlar? - bir nec? s?rti birg? isl?tm?k ucun istifad? olunur.M?ntiq operatorlar? asag?dak?lard?r:
+   && - and - butun s?rtl?r dooru olarsa n?tic? "true" olur.
+   || - or - s?rtl?rd?n birinin dogru olmas? n?tic?d? "true" avab?n? gost?rir.
+    ! - NOT - al?nm?s n?tic?nin ?ksini gost?rir.M?s?l?n; n?tic? "true" alinarsa onu d?yis?r?k "false" nmayis etdirir.
+
+
+5.S?rt operatorlar? - if v? else operatorlar? s?rt operatorlar?d?r.
+   if (/* s?rt */)
+        {/* yerin? yetirilm?li ?m?liyyatlar */}
+  else
+        {/* dig?r ?m?liyyatlar */}
+
+?vv?lc? s?rt yoxlan?l?r, ?g?r dogrudursa, onda {} aras?nda olan ?m?liyyatlar yerin? yetirilir, ?ks halda else–d?n sonrak? {} mot?riz?l?ri aras?nda olan ?m?liyyatlar yerin? yetirilir.
